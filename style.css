@@ -1,0 +1,99 @@
+/* Font use on the website -- change this*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Open+Sans:wght@700&display=swap');
+
+:root{
+    --main-color:#8a8a8c;
+}
+
+*{
+    margin:0; padding:0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+/* The HTMl for the overall site. */
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #444;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+/* The header begins here*/
+.header{
+    background: #18191c;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
+
+.header .logo {
+    flex: 1 1 45rem;
+}
+
+.header .logo img{
+    height: 10%;
+    width: 10%;
+    border-radius: .5rem;
+}
+
+.header .navbar a{
+    color:#fff;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+}
+
+#menu-bars{
+    color:#fff;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+}
+/* The body begins here*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #647cff, #b50cff);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
