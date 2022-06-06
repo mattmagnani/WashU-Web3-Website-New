@@ -118,3 +118,58 @@ body{
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+/* The artwork/animation section begins here*/
+
+
+/* The contact section begins here*/
+.contact .heading h1{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 12rem;
+    max-width: 70rem;
+    margin:2rem auto;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin:1rem auto;
+    text-align: center;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    background:#333;
+    color:#fff;
+    width: 100%;
+    border-radius: .5rem;
+    padding:1rem;
+    margin:.7rem 0;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder{
+    color:#eee;
+    text-transform: capitalize;
+}
+
+.contact form .inputBox input:focus,
+.contact form textarea:focus{
+    background:#444;
+}
+
+.contact form .inputBox input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
