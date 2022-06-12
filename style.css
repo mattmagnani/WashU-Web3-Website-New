@@ -131,12 +131,53 @@ body{
 
 
 /* The newsletter section begins here*/
-.contact {
-    background: linear-gradient(45deg, #810EA8, #3D0CA9);
-    height: 100px;
-    width: 150px;
-    border-radius: 50%;
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20rem;
+}
+.contact form .inputBox{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    background:#D9D9D9;
+    color:#333;
+    width: 100%;
+    border-radius: .5rem;
+    padding:1rem;
+    margin:.7rem 0;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.contact form .btn{
+    background-color: transparent;
+    border-color: #fff;
+    color:#8a8a8c;
+    width: 100%;
+    border-radius: .5rem;
+    padding:1rem;
+    margin:.7rem 0;
+    font-size: 1.5rem;
+    text-transform: none;
+    cursor: pointer;
+}
+
+
+.contact h3{
+    text-transform: uppercase;
+}
+.contact .news-text .e{
+    transform: translate (50%, 50%);
+    background: linear-gradient(45deg, #810EA8, #3D0CA9);
+    height: 500px;
+    width: 750x;
+    border-radius: 150px 150px 0 0;
+    border-radius: 50%;
 }
