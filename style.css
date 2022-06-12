@@ -131,3 +131,12 @@ body{
 
 
 /* The newsletter section begins here*/
+.contact {
+    background: linear-gradient(45deg, #810EA8, #3D0CA9);
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
