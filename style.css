@@ -81,10 +81,34 @@ body{
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(45deg, #647cff, #7466FF, #844FFF, #9539FF, #A522FF, #b50cff);
+    background-color: #1D1C21;
     background-size: 200% 200%;
     position: relative;
-    animation: change 20s ease-in-out infinite;
+}
+
+/* The home section begins here*/
+.home .content{
+    text-align: center;
+    padding-top: 12rem;
+    max-width: 70rem;
+    margin:2rem auto;
+}
+
+.home .content h3{
+    background-color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+.home .content span{
+    background: linear-gradient(to right, #B50CFF, #647CFF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 100% 100%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
 }
 
 @keyframes change {
@@ -97,20 +121,6 @@ body{
     100%{
         background-position: 0 50%;
     }
-}
-
-/* The home section begins here*/
-.home .content{
-    text-align: center;
-    padding-top: 12rem;
-    max-width: 70rem;
-    margin:2rem auto;
-}
-
-.home .content h3{
-    color:#fff;
-    font-size: 7rem;
-    text-transform: uppercase;
 }
 
 .home .content h4{
