@@ -6,7 +6,8 @@
 }
 
 *{
-    margin:0; padding:0;
+    margin:0;
+    padding:0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     outline: none; border: none;
@@ -38,7 +39,7 @@ html::-webkit-scrollbar-thumb{
 
 /* The header begins here*/
 .header{
-    background: #18191c;
+    background-color: #18191c;
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 10000;
@@ -78,20 +79,22 @@ html::-webkit-scrollbar-thumb{
 
 /* The body (background) begins here*/
 body{
-    width: 100%;
     height: 100vh;
-    color: #fff;
-    background-color: #1D1C21;
-    background-size: 200% 200%;
-    position: relative;
+	width: 100%;
+    background-size: cover;
+	background-position: center;
 }
 
 /* The home section begins here*/
+.home{
+    background-color: #1D1C21;
+}
+
 .home .content{
     text-align: center;
     padding-top: 12rem;
     max-width: 70rem;
-    margin:2rem auto;
+    margin: 2rem auto;
 }
 
 .home .content h3{
@@ -129,6 +132,7 @@ body{
     text-transform: uppercase;
 }
 
+/* The artwork/animation section begins here*/
 .home .diagram img{
     height: 70%;
     width: 70%;
@@ -137,8 +141,6 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-/* The artwork/animation section begins here*/
-
 
 /* The newsletter section begins here*/
 .contact form{
@@ -182,13 +184,10 @@ body{
 .contact h3{
     text-transform: uppercase;
 }
-.contact .news-text .e{
-    transform: translate (50%, 50%);
-    background: linear-gradient(45deg, #810EA8, #3D0CA9);
-    height: 500px;
-    width: 750x;
-    border-radius: 150px 150px 0 0;
-    border-radius: 50%;
+
+.contact .news-text .ellipse img{
+    height: 100%;
+    width: 100%;
 }
 
 /* The footer section begins here*/
