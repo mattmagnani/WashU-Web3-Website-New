@@ -143,13 +143,34 @@ body{
 }
 
 /* The newsletter section begins here*/
-.contact form{
+.contact .newsletterBackground .ellipse img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact .news-text{
+    margin-top: -235px;
+}
+
+.contact .news-text h3{
+    color: #F1F1F1;
+    font-size: 28px;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    margin-left: 10%;
+}
+
+.contact .news-text form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
     text-transform: uppercase;
     overflow: hidden;
+    width: 35%;
+    margin-left: 57%;
+    margin-top: -8%;
 }
+
 .contact form .inputBox{
     display: flex;
     justify-content: space-between;
@@ -179,16 +200,6 @@ body{
     font-size: 1.5rem;
     text-transform: none;
     cursor: pointer;
-}
-
-.contact .news-text h3{
-    text-transform: uppercase;
-    overflow: hidden;
-}
-
-.contact .news-text .ellipse img{
-    height: 100%;
-    width: 100%;
 }
 
 /* The footer section begins here*/
