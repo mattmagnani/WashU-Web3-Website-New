@@ -165,10 +165,9 @@ body{
     margin: 1rem auto;
     text-align: center;
     text-transform: uppercase;
-    overflow: hidden;
     width: 35%;
     margin-left: 57%;
-    margin-top: -8%;
+    margin-top: -8.5%;
 }
 
 .contact form .inputBox{
@@ -192,7 +191,7 @@ body{
 .contact form .btn{
     background-color: transparent;
     border-color: #fff;
-    color:#8a8a8c;
+    color:#F1F1F1;
     width: 100%;
     border-radius: .5rem;
     padding:1rem;
@@ -200,6 +199,7 @@ body{
     font-size: 1.5rem;
     text-transform: none;
     cursor: pointer;
+    border-style: solid;
 }
 
 /* The footer section begins here*/
