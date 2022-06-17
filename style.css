@@ -210,6 +210,13 @@ body{
     min-height: 100vh;
 }
 
+.services .servicesHeader{
+}
+
+.services .servicesHeader h3{
+    font-size: 48px;
+}
+
 .container{
     position: relative;
     display: flex;
