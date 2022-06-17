@@ -211,6 +211,10 @@ body{
 }
 
 .services .servicesHeader{
+    position: relative;
+    top: -360px;
+    left: 505px;
+    box-shadow: 0px 30px 1px -27px #3D0CA9;
 }
 
 .services .servicesHeader h3{
@@ -225,16 +229,17 @@ body{
     max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
+    right: 150px;
 }
 
 .container .card{
     position: relative;
-    width: 280px;
-    height: 400px;
-    margin: 30px;
+    width: 350px;
+    height: 500px;
+    margin: 80px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background: linear-gradient(to right, #B50CFF, #647CFF);
+    background: linear-gradient(to top right, #3D0CA9, #810EA8);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -250,9 +255,6 @@ body{
     transform: translateY(100px);
     opacity: 0;
     transition: 0.5s;
-}
-
-.container .card:hover .content{
     transform: translateY(0px);
     opacity: 1;
 }
@@ -272,7 +274,7 @@ body{
     z-index: 1;
 }
 
-.container.card .content p{
+.container .card .content p{
     font-size: 1em;
     color: #F1F1F1;
     font-weight: 300;
@@ -283,8 +285,8 @@ body{
     display: inline-block;
     padding: 8px 20px;
     margin-top: 15px;
-    background: #647CFF;
-    color: #1D1C21;
+    background: #31333a;
+    color: #F1F1F1;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
