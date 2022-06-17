@@ -260,12 +260,19 @@ body{
 }
 
 .container .card .content h2{
-    position: absolute;
-    top: -80px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
+    font-size: 1.8em;
+    color: #F1F1F1;
+    z-index: 1;
+}
+
+.container .card .content .students img{
+    width: 322px;
+    height: 165px;
+}
+
+.container .card .content .companies img{
+    width: 353px;
+    height: 217px;
 }
 
 .container .card .content h3{
