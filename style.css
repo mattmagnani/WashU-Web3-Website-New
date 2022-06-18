@@ -262,7 +262,7 @@ body{
 .container .card .content h2{
     font-size: 1.8em;
     color: #F1F1F1;
-    z-index: 1;
+    margin-top: -90px;
 }
 
 .container .card .content .students img{
