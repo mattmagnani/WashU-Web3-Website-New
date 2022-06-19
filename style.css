@@ -260,19 +260,14 @@ body{
 }
 
 .container .card .content h2{
-    font-size: 1.8em;
+    font-size: 2.2em;
     color: #F1F1F1;
-    margin-top: -90px;
 }
 
-.container .card .content .students img{
+.container .card .content img{
     width: 320px;
     height: 170px;
-}
-
-.container .card .content .companies img{
-    width: 320px;
-    height: 170px;
+    margin-top: 50px;
 }
 
 .container .card .content h3{
@@ -282,9 +277,10 @@ body{
 }
 
 .container .card .content p{
-    font-size: 1em;
+    font-size: 1.3em;
     color: #F1F1F1;
     font-weight: 300;
+    margin-top: 30px;
 }
 
 .container .card .content a{
@@ -298,6 +294,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 /* The footer section begins here*/
