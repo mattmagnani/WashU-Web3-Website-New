@@ -208,6 +208,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-top: 175px;
 }
 
 .services .servicesHeader{
@@ -299,8 +300,9 @@ body{
 
 /* The footer section begins here*/
 .footer{
-    background:#111;
+    background: linear-gradient(to right, #3D0CA9, #810EA8);
     border-top-left-radius: 125px;
+    bottom: 0%;
 }
 
 .footer .box-container{
